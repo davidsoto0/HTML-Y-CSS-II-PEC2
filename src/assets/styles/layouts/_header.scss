@@ -1,0 +1,29 @@
+.header {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: static;
+
+    li {
+      float: right;
+
+      a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        transition: border-bottom 400ms;
+      }
+
+      a:hover {
+        border-bottom: 5px solid #012f4cc9;
+        padding-bottom: 3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+body {
+  font-family: $font-family-sans-serif;
+  background-color: $uoc-bg;
+  color: $uoc-corporate;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.wraper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: 65px 1fr 100px;
+}
+
+// .articulo {
+//   display: grid;
+//   grid-gap: 20px;
+//   grid-template-rows: repeat(6, 1fr);
+// }

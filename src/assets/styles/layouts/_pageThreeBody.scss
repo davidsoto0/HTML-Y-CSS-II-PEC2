@@ -1,0 +1,51 @@
+@use "sass:map";
+
+.imagen {
+  margin-top: 20px;
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+}
+.articulo {
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+  // text-align: justify;
+
+  .articulo__body {
+    li {
+      font-weight: bold;
+    }
+  }
+
+  .atriculo__footer {
+    display: flex;
+    gap: 1.5em;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: center;
+
+    .titulo,
+    .cuerpo {
+      // justify-content: center;
+      flex-basis: calc(50em - 100%);
+      flex-grow: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .articulo {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .articulo {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}

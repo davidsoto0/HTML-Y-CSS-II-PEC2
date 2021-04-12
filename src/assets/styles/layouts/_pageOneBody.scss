@@ -1,0 +1,53 @@
+@use "sass:map";
+
+.card__body {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: map.get($colors-text, "title");
+
+  .experiencia {
+    display: block;
+
+    .experiencia--flex {
+      display: flex;
+      margin-right: 0;
+    }
+
+    .experiencia--display2blocks {
+      @include display2blocks();
+    }
+
+    .experiencia--bold {
+      font-weight: bold;
+    }
+  }
+
+  .informatica {
+    display: block;
+
+    .informatica--flex {
+      display: flex;
+      margin-right: 0;
+    }
+
+    .informatica--display2blocks {
+      @include display2blocks();
+    }
+  }
+}
+
+.name__band {
+  background: url("../images/GrupoDeMusicaSinFondo.png");
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-size: cover;
+  background-position: center;
+  padding-top: 550px;
+  text-align: center;
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  h2 {
+    font-family: cursive;
+  }
+}

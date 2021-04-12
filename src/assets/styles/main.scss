@@ -1,0 +1,81 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import variables
+ */
+
+@import "variables";
+
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+
+@import "layouts/home";
+
+/**
+ * Do NOT include anything else in this file!
+ */
+
+/*Dependencias de FontAwesome que instalamos anteriormente a nuestro bundle*/
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+/**
+ *  Importamos el módulo functions
+ *  Este módulo contienen funciones
+ */
+@import "functions";
+
+/**
+ *  Importamos el módulo header
+ *  Este módulo contienen los estilos de la barra de navegación de la web
+ */
+@import "layouts/header";
+
+/**
+ *  Importamos el módulo pageOneBody
+ *  Este módulo contienen los estilos del cuerpo de la página 1
+ */
+@import "layouts/pageOneBody";
+
+/**
+ *  Importamos el módulo pageTwoBody
+ *  Este módulo contienen los estilos del cuerpo de la página 2
+ */
+@import "layouts/pageTwoBody";
+
+/**
+ *  Importamos el módulo pageThreeBody
+ *  Este módulo contienen los estilos del cuerpo de la página 3
+ */
+@import "layouts/pageThreeBody";
+
+/**
+ *  Importamos el módulo pageFourBody
+ *  Este módulo contienen los estilos del cuerpo de la página 4
+ */
+@import "layouts/pageFourBody";
+
+/**
+ *  Importamos el módulo footer
+ *  Este módulo contienen los estilos del pie de página de la web
+ */
+@import "layouts/footer";
+
+/**
+ *  Importamos Bootstrap
+ *  Este módulo contienen los estilos de bootstrap
+ */
+@import "bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,23 @@
+@use "sass:map";
+
+.body__pagefour {
+  margin-top: 10%;
+
+  .body__titulo {
+    display: block;
+    margin-bottom: 3%;
+    text-align: center;
+  }
+
+  .formulario__titulo {
+    margin-bottom: 3%;
+    text-align: center;
+  }
+
+  .container__videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+}
