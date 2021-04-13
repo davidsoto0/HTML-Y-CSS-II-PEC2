@@ -41,13 +41,20 @@
   background-repeat: no-repeat;
   // background-attachment: fixed;
   // background-size: cover;
+  background-size: contain;
   background-position: center;
-  padding-top: 550px;
+  padding-top: 50%;
   text-align: center;
   h1 {
     font-family: "Times New Roman", Times, serif;
   }
   h2 {
     font-family: cursive;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .name__band {
+    padding-top: 70%;
   }
 }

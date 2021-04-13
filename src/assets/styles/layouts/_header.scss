@@ -13,7 +13,7 @@
         display: block;
         color: rgb(0, 0, 0);
         text-align: center;
-        padding: 14px 16px;
+        padding: 10px 10px;
         text-decoration: none;
         font-size: 18px;
         font-weight: bold;
@@ -24,6 +24,26 @@
         border-bottom: 5px solid #012f4cc9;
         padding-bottom: 3px;
       }
+    }
+  }
+}
+
+// @media only screen and (max-width: 330px) {
+//   a {
+//     padding: 10px 6px;
+//     font-size: 16px;
+//   }
+// }
+
+@media only screen and (max-width: 780px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+    a {
+      text-align: center;
+      display: block;
     }
   }
 }
